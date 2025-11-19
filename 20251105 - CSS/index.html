@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- EXTERNAL -->
+    <title>05/11/2025 | CSS Dasar</title>
+    <style>
+        #internal { /* ID (selector: #nama) */
+            color: blue;
+        }
+
+        .internal2 { /* Class (selector: .nama) */
+            color: blue;
+        }
+    </style> <!-- INTERNAL -->
+</head>
+<body>
+    <p id="inline" style="color: red;"> <!-- INLINE -->
+        <!-- Langsung di tag modifier -->
+        Kalimat ini menggunakan INLINE CSS.
+    </p>
+    <p id="internal" class="internal2">
+        <!-- Lewat tag <style> yang ada di head -->
+        Kalimat ini menggunakan INTERNAL CSS.
+    </p>
+    <p id="external">
+        <!-- Lewat <link rel="stylesheet" href="style.css">, alias external file -->
+        Kalimat ini menggunakan EXTERNAL CSS
+    </p>
+</body>
+</html>
