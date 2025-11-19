@@ -58,6 +58,11 @@ ul#sidebar-ul > li {
 ul#sidebar-ul > li > a {
     color: #000000;
     font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+ul#sidebar-ul > li > a:hover {
+    color: #0d9c00;
 }
 
 a {
